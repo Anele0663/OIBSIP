@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="uft-8"/>
+        <title>StudyBot___Your Study AI Companion</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header class="nav">
+            <div class="brand">
+                <span>StudyBot</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#demo">Demo</a>
+                <a href="#how">How</a>
+                <a href="contact">Contact</a>
+                <button id="themeToggle" class="btn small">Dark</button>
+
+            </nav>
+        </header>
+        <!--Hero -->
+        <section class="hero">
+            <div class="hero-left">
+                <h1>Meet<span class="accent">StudyBot</span>__Your AI study companion</h1>
+                <p class="lead">Summarise notes, generate quizzez, create study plans, and get instant eplainations all in one friendly tool.</p>
+                <div class="cta-row">
+                    <a href="#demo" class="btn primary">Try the demo</a>
+                    <a href="#how" class="btn outline">How it works</a>
+                </div>
+
+               <div class="features-inline">
+                <div class="pill">Auto Summarise</div>
+                <div class="pill">Quiz generator</div>
+                <div class="pill">Study Schedules</div>
+               </div>
+            </div>
+            <div class="hero-right" aria-hidden="false">
+                <div class="device">
+                    <div class="device-top">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+
+                    </div>
+                    <div class="screen">
+                        <div class="chat" id="chat">
+                            <div class="msg bot">Hi! I'm StudyBot. Paste notes or ask a question to begin</div>
+                        </div>
+                         <form id="demoForm" class="input-row">
+                            <input id="demoInput" type="text" placeholder="Type a question or paste notes..." autocomplete="off"/>
+                            <button class="btn small" type="submit">Send</button>
+                         </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Features-->
+        <section id="features" class="section grid-3">
+            <article>
+                <svg class="icon" viewbox="0 0 24 24"><path d="M4 6h16M4 12h10M4 18h16" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg>
+                <h3>Summarise Fast</h3>
+                <p>Paste long notes- StusyBot reduces them into short, clear summaries you can review quickly.</p>
+        
+            </article>
+            <article>
+                 <svg class="icon" viewBox="0 0 24 24"><path d="M12 2v20M2 12h20" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg>
+                 <h3>Generate Quizzes</h3>
+                 <p>Auto-generate multiple-choice or short-answer quizzes to test what you've learned.</p>
+            </article>
+            <article>
+                 <svg class="icon" viewBox="0 0 24 24"><path d="M3 7h18M6 7v12M18 7v12" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></svg>
+                 <h3>Smart Study Plans</h3>
+                 <p>Create personilazed study schedules that fit your deadlines and learning pace.</p>
+            </article>
+            
+        </section>
+        <!--HOW IT WORKS-->
+        <section id="how" class="section how" >
+            <div class="how-left">
+                <h2>How StudyBot helps you learn in 3 easy steps</h2>
+                <ol>
+                    <li><strong>Paste or type:</strong>Give StudyBot your notes or a topic.</li>
+                    <li><strong>Choose an action:</strong>Summarise, Quiz-ify,or Create a plan.</li>
+                    <li><strong>Study smarter:</strong>Use the output to revise quickly and check your progress.</li>
+                </ol>
+                <a href="#demo" class="btn primary">Try Demo</a>
+
+            </div>
+            <div class="how-right">
+                <img src="https://via.placeholder.com/520x320?text=Study+Dashboard" alt="Study dashboard mock" /> 
+            </div>
+
+        </section>
+        <!--EXTRA-->
+        <section class="section stats">
+            <div>
+                <h3>+200k</h3>
+                <p>Generate quizzes</p>
+
+            </div>
+            <div>
+                <h3>98%</h3>
+                <p>Students say it's helpful</p>
+            </div>
+            <div>
+                <h3>Instant</h3>
+                <p>Fast Responses</p>
+            </div>
+        </section>
+
+        <!--CTA / FOOTER -->
+        <footer id="contact" class="footer">
+            <div class="footer-inner">
+                <div>
+                    <h3>Get started with StudyBot</h3>
+                    <p>Sign up to save your study plans and history(demo only)</p>
+
+                </div>
+                <form id="signupForm" class="signup-form">
+                    <input type="email" id="email" placeholder="Your email(demo)"/>
+                    <button class="btn primary" type="button">Notify me</button>
+
+                </form>
+            </div>
+            <div class="finerprint">
+                <p>©<strong>StudyBot</strong>-AI Study Companion • This is a demo project. No real AI calls are made.</p></p>
+            </div>
+        </footer>
+
+    <script src="script.js"></script>
+    </body>
+
+
+</html>

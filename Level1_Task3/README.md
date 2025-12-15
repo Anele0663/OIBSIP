@@ -1,15 +1,14 @@
 markdown
-Level 1 - Task 1: Landing Page
+Level 1 - Task 3: Temperature Converter
 
-This is a simple landing page developed using HTML, CSS, and JavaScript as part of the Oasis Infobyte Web Development Internship.
+This is a simple temperature converter web app that converts values between Celsius, Fahrenheit, and Kelvin.
 
 Features
-- Responsive design
-- Basic navigation
-- Email input and notification button (demo only)
+- Input validation
+- Real-time conversion
+- JavaScript functionality
 
 Files Included
-- `landing_page.html`
+- `converter.html`
 - `style.css`
 - `script.js`
-

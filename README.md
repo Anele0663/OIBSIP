@@ -5,22 +5,22 @@ This repository contains my completed tasks for the *Web Development and Designi
 
 
 OIBSIP/
-├── Level1_task1/
+ Level1_task1/
 │   - landing_page.html
 │   - style.css
 │   - script.js
 │   - README.md
-├── Level1_task2/
+ Level1_task2/
 │   - portfolio.html
 │   - style.css
 |   - script.js
 │   - README.md
-├── Level1_task3/
+ Level1_task3/
 │   - converter.html
 │   - style.css
 │   -  script.js
 │   -  README.md
-└── README.md (this file)
+ README.md (this file)
 
 ---
 
@@ -40,10 +40,10 @@ Built using HTML, CSS, and JavaScript.
 
 ---
 
- Technologies Used
-- HTML5  
+Technologies Used
+-HTML5  
 - CSS3
-- JavaScript  
+-JavaScript  
 - Git & GitHub
 
 ---

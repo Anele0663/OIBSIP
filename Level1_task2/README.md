@@ -11,5 +11,5 @@ Features
 
 Files Included
 - `portfolio.html`
-- `style.css
+- `style.css`
 - `script.js`
